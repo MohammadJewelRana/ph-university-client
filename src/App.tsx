@@ -1,10 +1,12 @@
 import MainLayOut from "./components/layout/MainLayout";
+import ProtectedRoute from "./components/layout/ProtectedRoute";
 
 function App() {
   return (
     <>
-      {/* <h1>PH university management app</h1> */}
-      <MainLayOut></MainLayOut>
+      <ProtectedRoute>
+        <MainLayOut></MainLayOut>
+      </ProtectedRoute>
     </>
   );
 }
