@@ -22,10 +22,13 @@ const Login = () => {
   //   },
   // });
 
-  const defaultValues = {
-    userId: 'A-0002',
-    password: 'admin123',
-  };
+  const defaultValues = {}
+ 
+
+  // const defaultValues = {
+  //   userId: 'A-0002',
+  //   password: 'admin123',
+  // };
 
   const [login] = useLoginMutation();
 
